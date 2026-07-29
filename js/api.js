@@ -6,7 +6,7 @@
  * Web App ("Execute as: Me", "Who has access: Anyone"). See README.md.
  */
 
-const GAS_WEB_APP_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbw13C02x7nsj29tgisS3s1vp0aZHkgV4QEklRy13y9UGUvowSrikhqxqsLpzTwJbeMA/exec";
 
 async function gasCall(action, payload = {}) {
   if (!GAS_WEB_APP_URL || GAS_WEB_APP_URL.startsWith("PASTE_")) {
