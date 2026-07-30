@@ -1,0 +1,15 @@
+{
+  "name": "Mindful Slave",
+  "short_name": "মগ্নচৈতন্য ভৃত্য",
+  "description": "A bilingual (English/Bengali) daily Islamic companion: Qur'an recitation plan, dhikr counter, and du'a collection.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#3a3a3a",
+  "theme_color": "#232323",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
